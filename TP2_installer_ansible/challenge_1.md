@@ -1,4 +1,5 @@
-TP2 : Installer Ansible
+# TP2 : Installer Ansible
+
 ---
 
 ### Challenge n°1 :
