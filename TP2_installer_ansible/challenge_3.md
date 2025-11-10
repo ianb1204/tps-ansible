@@ -17,13 +17,13 @@ $ cd atelier-01
 $ vagrant up rocky
 ```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_1_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_1_Ian-Bertin_Hugo-Crepin.png
 
 **2 - Je me connecte à la VM montée :**
 ```
 $ vagrant ssh rocky
 ```
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_2_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_2_Ian-Bertin_Hugo-Crepin.png
 
 **3 - J'install venv :**
 
@@ -36,14 +36,14 @@ On ne trouve rien.
 No match for argument: venv
 Error : Unable to find a match : venv
 ```
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_3_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_3_Ian-Bertin_Hugo-Crepin.png
 
 Étant donné qu'on ne peut pas y accéder via le gestionnaire dnf, on va passer par pip pour utiliser le paquet venv :
 ```
 $ sudo dnf install python3-pip
 ```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_4_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_4_Ian-Bertin_Hugo-Crepin.png
 
 **4 - Création et activation de l'environnement virtuel :**
 
@@ -59,7 +59,7 @@ On vérifie si ansible est déjà dans l'environnnement virtuel :
 -bash: ansible: command not found
 ```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_5_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_5_Ian-Bertin_Hugo-Crepin.png
 
 **4 - Installation de Ansible :**
 
@@ -74,4 +74,4 @@ $ pip install ansible
 $ ansible --version
 ```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_3_6_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_3_6_Ian-Bertin_Hugo-Crepin.png

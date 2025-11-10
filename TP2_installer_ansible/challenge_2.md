@@ -25,19 +25,19 @@ Notez la version fournie par ce dépôt tiers et comparez avec la version offici
 
 Réponse : ```$ sudo apt-add-repository ppa:ansible/ansible```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_1_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_2_1_Ian-Bertin_Hugo-Crepin.png
 
 **3 - J'installe ansible :**
 
 Réponse : ```$ sudo apt install -y ansible```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_2_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_2_2_Ian-Bertin_Hugo-Crepin.png
 
 **4 - Je vérifie l'installation :**
 
 Réponse : ```$ ansible --version```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_3_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_2_3_Ian-Bertin_Hugo-Crepin.png
 
 **5 - Je note la version du paquet installé :**
 
@@ -55,7 +55,7 @@ ansible [core 2.17.14]
   libyaml = True
 ```
 
-capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_3_Ian-Bertin_Hugo-Crepin.png
+capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/screenshots/tp2_2_3_Ian-Bertin_Hugo-Crepin.png
 
 **6 - Je compare avec la version installée dans le challenge n°1 :**
 
