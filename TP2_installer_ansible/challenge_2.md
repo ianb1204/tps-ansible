@@ -16,26 +16,26 @@ Notez la version fournie par ce dépôt tiers et comparez avec la version offici
 #### Réponses : 
 
 **1 - Je commence par monter la VM Ubuntu du challenge n°1 :**
-* ```cd atelier-01```
-* ```vagrant up ubuntu```
-* ```vagrant ssh ubuntu```
-* ```sudo apt update```
+* ```$ cd atelier-01```
+* ```$ vagrant up ubuntu```
+* ```$ vagrant ssh ubuntu```
+* ```$ sudo apt update```
 
 **2 - Je configure le PPA pour ansible :**
 
-Réponse : ```sudo apt-add-repository ppa:ansible/ansible```
+Réponse : ```$ sudo apt-add-repository ppa:ansible/ansible```
 
 capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_1_Ian-Bertin_Hugo-Crepin.png
 
 **3 - J'installe ansible :**
 
-Réponse : ```sudo apt install -y ansible```
+Réponse : ```$ sudo apt install -y ansible```
 
 capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_2_Ian-Bertin_Hugo-Crepin.png
 
 **4 - Je vérifie l'installation :**
 
-Réponse : ```ansible --version```
+Réponse : ```$ ansible --version```
 
 capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP2_installer_ansible/tp2_2_3_Ian-Bertin_Hugo-Crepin.png
 
