@@ -177,20 +177,20 @@ capture d'écran : https://github.com/ianb1204/tps-ansible/blob/main/TP4_configu
 **4 - Envoyez un premier ```ping``` Ansible sans configuration :**
 
 ```
-ansible all -m ping
+$ ansible all -m ping
 ```
 Le ping échoue
 
 **5 - Créez un répertoire de projet ```~/monprojet``` :**
 
 ```
-mkdir monprojet
+$ mkdir monprojet
 ```
 
 **6 - Créez un fichier vide ```ansible.cfg``` dans ce répertoire :**
 
 ```
-touch ansible.cfg
+$ touch ansible.cfg
 ```
 
 **7 - Vérifiez si ce fichier est bien pris en compte par Ansible :**
