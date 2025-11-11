@@ -63,7 +63,7 @@ target01 | SUCCESS => {
 
 ---
 
-#### Réponse : 
+#### Réponses : 
 
 1 - Je commence tout d'abord par me connecter au _Control Host_ :
 ```

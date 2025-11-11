@@ -48,7 +48,7 @@ Réaliser les points suivants :
 
 ---
 
-#### Réponse : 
+#### Réponses : 
 
 **1 - Éditez ```/etc/hosts``` de manière à ce que les _Target Hosts_ soient joignables par leur nom d'hôte simple :**
 
